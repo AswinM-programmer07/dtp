@@ -1,0 +1,102 @@
+
+
+
+/* The element to apply the animation to */
+.navbarr {
+position: relative;
+animation-name: example;
+animation-duration: 2s;
+}
+
+@keyframes example {
+    0%   {  top:-100px;}
+    
+    100% {  top:0px;}
+    }
+
+.offer{
+    padding-top:200px;
+     
+}
+
+.Offer-in{
+    background-color: rgba(0, 0, 0, 0.855);
+    padding-left: 20px;
+    color:white;
+}
+.fimg{
+    border: solid,5px,rgba(0, 0, 0, 0.855);
+}
+.nave{
+    padding-top:20px;
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+    .nave {
+      display: none;
+    }
+  }
+@media only screen and (min-width: 700px) {
+    .menimg {
+      display: none;
+    }
+    .tit{
+        background-color: whitesmoke;
+    }
+  }
+
+.navlink{
+    font-size: 1.5rem;
+    text-decoration: solid;
+    color: rgb(255, 237, 237);
+}
+.navbarr{
+    border-bottom: solid, 3px, rgb(237, 229, 229);
+    background-color: rgba(82, 76, 76, 0.805);
+}
+.navlink:hover{
+    font-size: 1.6rem;
+    color:black;
+}
+
+/* product */
+@media only screen and (max-width:590px){
+    .sma, .mdl, .lgl{
+        display:none;
+    }  
+}
+@media only screen and (min-width: 590px) and (max-width: 771px){
+    .vsma, .mdl, .lgl{
+        display:none;
+    }
+    .sma{
+        display:block
+    }
+}
+@media only screen and (min-width: 770px) and (max-width: 1000px){
+    .vsma, .sma, .lgl{
+        display:none;
+    }
+}
+@media only screen and (min-width: 1000px){
+.vsma, .sma, .mdl{
+    display:none;
+}
+}
+
+
+.menul{
+    display:none;
+    list-style: none;
+    
+}
+.gunmen:hover .menul{
+
+    display: block;
+    background-color: rgb(54, 53, 53);
+    
+}
+
+
